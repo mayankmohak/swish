@@ -1,0 +1,39 @@
+.featured-card {
+  display: flex;
+  flex-direction: row;
+  padding: 1vw;
+  padding-top: 3vw;
+  height: 18vw;
+  
+  background: #FFFFFF;
+  border-radius: 10px;
+  
+  flex: none;
+  margin: 0px 1vw;
+}
+.p-title{
+  font-size: 1.1vw;
+}
+.category {
+  color: #92929D;
+}
+
+.price {
+  position: static;
+  display: flex;
+  color: #171725;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-weight: 600;
+  font-size: 1vw;
+}
+
+.featured-image {
+  height: 7vw;
+}
+
+.plus-button {
+  height: 1.5vw;
+  margin-left: 3vw;
+}

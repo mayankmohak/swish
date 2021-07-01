@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  /* background: green; */
+  color: white;
+  position: absolute;
+  z-index: 100;
+}
+
+.nav-link {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.fa{
+  color: rgb(204, 201, 192);
+  font-size: 5vh;
+}

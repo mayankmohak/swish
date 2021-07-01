@@ -24,7 +24,7 @@
   overflow-x: auto;
 }
 
-.products label {
+.title {
   position: absolute;
   left: 8%;
   margin-top: 22vw;

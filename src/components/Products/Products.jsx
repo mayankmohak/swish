@@ -8,65 +8,60 @@ class Products extends Component {
     super(props);
     this.state = {
       isLoaded: false,
-      storeName: [],
       bestProduct: [],
       featuredProduct: []
     }
   }
 
-  componentDidMount( ) {
-    fetch('https://60dc0552c2b6280017feb60a.mockapi.io/StoreName')
-    .then(res => res.json())
-    .then((data) => {
-      this.setState({
-        isLoaded: true,
-        storeName: data,
-      });
-    });
+  componentDidMount() {
     fetch('https://60dc0552c2b6280017feb60a.mockapi.io/BestProduct')
-    .then(res => res.json())
-    .then((bpdata) => {
-      this.setState({
-        bestProduct: bpdata
+      .then(res => res.json())
+      .then((bpdata) => {
+        this.setState({
+          isLoaded: true,
+          bestProduct: bpdata
+        });
       });
-    });
     fetch('https://60dc0552c2b6280017feb60a.mockapi.io/FeaturedProducts')
-    .then(res => res.json())
-    .then((fpdata) => {
-      this.setState({
-        FeaturedProducts: fpdata
+      .then(res => res.json())
+      .then((fpdata) => {
+        this.setState({
+          featuredProduct: fpdata
+        });
       });
-    });
   }
 
   render() {
-    const { isLoaded, storeName , bestProduct, featuredProduct} = this.state;
-    if(!isLoaded){
+    const { isLoaded, bestProduct, featuredProduct } = this.state;
+    if (!isLoaded) {
       return <h1>Loading...</h1>
     }
     else {
-      const bestCardsCrousel = bestProduct.map(j => 
-        <BestCard 
-         id={j.pid}
-         name={j.ProductName}
-         path={j.AvtarLocation}
+      const bestProductCard = bestProduct.map(j =>
+        <BestCard
+          id={j.pid}
+          name={j.ProductName}
+          path={j.AvtarLocation}
+        />
+      );
+      const featuredProductCard = featuredProduct.map(k =>
+        <FeaturedCard
+          id={k.id}
+          name={k.ProductName}
+          category={k.ProductCategory}
+          price={k.ProductPrice}
+          path={k.AvtarLocation }
         />
       );
       return (
         <div className="products">
-          <div className="inline">
-            {bestCardsCrousel}
-          </div>
+          <div className="inline"> { bestProductCard } </div>
           <br />
-          <label>Featured Products</label>
-          <FeaturedCard
-            id=""
-            name=""
-          />
-
-            {storeName.map(i => (
-              i.StoreName + " | " 
-            ))}
+          <label class="title">Featured Products</label>
+          <br />
+          <br />
+          <br />
+          <div className="inline"> { featuredProductCard } </div>
         </div>
       );
     }

@@ -1,0 +1,12 @@
+.total-item {
+  position: absolute;
+  left: 2.15%;
+  right: 3.4%;
+  top: 12.11%;
+  bottom: 84.57%;
+  font-weight: bold;
+}
+
+.cart-card {
+  /* background: black; */
+}
