@@ -8,7 +8,7 @@ class Header extends Component {
       <React.Fragment>
         <nav>
           <ul className="nav-link">
-            <Link to="/">
+            <Link to="/swish">
               <li><i class="fa fa-home"></i></li>
             </Link>
             <Link to="/cart">
