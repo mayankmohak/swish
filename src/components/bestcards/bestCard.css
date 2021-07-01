@@ -31,7 +31,7 @@
   /* font-family: DM Sans; */
   font-style: normal;
   font-weight: bold;
-  font-size: 20.7409px;
+  font-size: 1vw;
 }
 
 .product-image {
@@ -41,4 +41,8 @@
 .p-image {
   height: 10vw;
   width: 16vw;
+}
+
+.arrow {
+  height: 2vw;
 }

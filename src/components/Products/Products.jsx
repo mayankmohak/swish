@@ -57,7 +57,8 @@ class Products extends Component {
           <div className="inline">
             {bestCardsCrousel}
           </div>
-          
+          <br />
+          <label>Featured Products</label>
           <FeaturedCard
             id=""
             name=""

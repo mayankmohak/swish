@@ -23,3 +23,9 @@
   display: flex;
   overflow-x: auto;
 }
+
+.products label {
+  position: absolute;
+  left: 8%;
+  margin-top: 22vw;
+}
