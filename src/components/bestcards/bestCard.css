@@ -1,0 +1,27 @@
+.white-card {
+  background-color: white;
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 29.6299px 35.5559px;
+
+position: static;
+width: 100px;
+height: 263.71px;
+left: 126px;
+right: 831.03px;
+top: calc(50% - 263.71px/2 + 0px);
+
+/* Colors / White */
+
+background: red;
+border-radius: 14.8149px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 24px;
+}
