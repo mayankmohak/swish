@@ -30,6 +30,13 @@ class Products extends Component {
         bestProduct: bpdata
       });
     });
+    fetch('https://60dc0552c2b6280017feb60a.mockapi.io/FeaturedProducts')
+    .then(res => res.json())
+    .then((fpdata) => {
+      this.setState({
+        FeaturedProducts: fpdata
+      });
+    });
   }
 
   render() {
@@ -48,7 +55,7 @@ class Products extends Component {
       return (
         <div className="products">
           <div className="inline">
-            {/* {bestCardsCrousel} */}
+            {bestCardsCrousel}
           </div>
           
           <FeaturedCard

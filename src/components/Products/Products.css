@@ -18,7 +18,8 @@
 }
 
 .inline {
-  width: fit-content;
-  overflow-x: hidden;
-  display: inline-flex;
+  width: 85%;
+  height: 20vw; /* make scroller responsive */
+  display: flex;
+  overflow-x: auto;
 }
