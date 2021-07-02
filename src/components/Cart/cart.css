@@ -1,12 +1,83 @@
 .total-item {
   position: absolute;
-  left: 2.15%;
-  right: 3.4%;
-  top: 12.11%;
-  bottom: 84.57%;
+  left: 4%;
+  top: 10%;
   font-weight: bold;
 }
 
+.cart-products-cards {
+  position: absolute;
+  left: 2.15%;
+  top: 17.19%;
+  display: inline-flex;
+}
+
 .cart-card {
-  /* background: black; */
+  display: flex;
+  padding: 2vw;
+  background: rgba(118, 178, 38, 0.15);
+  border-radius: 20px;
+  margin: 1vw;
+  height: 30vh;
+  width: 20vw;
+}
+
+.cart-card-img {
+  height: 10vh;
+}
+
+.cart-card-name {
+  position: absolute;
+  margin-top: 11vh;
+  font-weight: bold;
+}
+
+.cart-card-detail {
+  position: absolute;
+  margin-top: 13.5vh;
+}
+
+.cart-card-price {
+  font-weight: bold;
+  position: absolute;
+  margin-top: 18vh;
+}
+
+/* price css */
+.price-area {
+  position: absolute;
+  left: 2.15%;
+  right: 3.4%;
+  bottom: 4.88%;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  height: 7vh;
+  width: 100%;
+  background: #1D1F22;
+  color: white;
+  border: none;
+  justify-content: center;
+  font-weight: bold;
+
+}
+
+.price-sepcifiation {
+  width: 100%;
+  padding-top: .5vh;
+  padding-bottom: .5vh;
+}
+
+.left {
+  padding-left: 1vw;
+  float: left;
+}
+
+.right {
+  font-weight: bold;
+  padding-right: 1vw;
+  float: right;
 }
