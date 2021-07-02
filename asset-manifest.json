@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/swish/static/css/main.42f37c97.chunk.css",
-    "main.js": "/swish/static/js/main.4b05abfd.chunk.js",
-    "main.js.map": "/swish/static/js/main.4b05abfd.chunk.js.map",
+    "main.css": "/swish/static/css/main.10df81b6.chunk.css",
+    "main.js": "/swish/static/js/main.4f9da621.chunk.js",
+    "main.js.map": "/swish/static/js/main.4f9da621.chunk.js.map",
     "runtime-main.js": "/swish/static/js/runtime-main.82f4757f.js",
     "runtime-main.js.map": "/swish/static/js/runtime-main.82f4757f.js.map",
     "static/js/2.8559da14.chunk.js": "/swish/static/js/2.8559da14.chunk.js",
     "static/js/2.8559da14.chunk.js.map": "/swish/static/js/2.8559da14.chunk.js.map",
     "index.html": "/swish/index.html",
-    "static/css/main.42f37c97.chunk.css.map": "/swish/static/css/main.42f37c97.chunk.css.map",
+    "static/css/main.10df81b6.chunk.css.map": "/swish/static/css/main.10df81b6.chunk.css.map",
     "static/js/2.8559da14.chunk.js.LICENSE.txt": "/swish/static/js/2.8559da14.chunk.js.LICENSE.txt",
     "static/media/arrow.b7486acc.svg": "/swish/static/media/arrow.b7486acc.svg",
     "static/media/bgbanner.76c9d586.png": "/swish/static/media/bgbanner.76c9d586.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.82f4757f.js",
     "static/js/2.8559da14.chunk.js",
-    "static/css/main.42f37c97.chunk.css",
-    "static/js/main.4b05abfd.chunk.js"
+    "static/css/main.10df81b6.chunk.css",
+    "static/js/main.4f9da621.chunk.js"
   ]
 }
