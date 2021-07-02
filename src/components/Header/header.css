@@ -1,11 +1,12 @@
 nav {
+  top: 1%;
+  right: 10%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  /* background: green; */
   color: white;
-  position: absolute;
+  position: fixed;
   z-index: 100;
 }
 
@@ -18,6 +19,6 @@ nav {
 }
 
 .fa{
-  color: rgb(204, 201, 192);
+  color: rgb(18, 101, 5);
   font-size: 5vh;
 }

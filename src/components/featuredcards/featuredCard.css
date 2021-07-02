@@ -3,7 +3,7 @@
   flex-direction: row;
   padding: 1vw;
   padding-top: 3vw;
-  height: 18vw;
+  height: 30vh;
   
   background: #FFFFFF;
   border-radius: 10px;
@@ -11,9 +11,17 @@
   flex: none;
   margin: 0px 1vw;
 }
-.p-title{
-  font-size: 1.1vw;
+
+@media only screen and (max-width: 1000px){
+  .featured-card {
+    padding: 2vw;
+  }
 }
+
+.p-title{
+  /* font-size: 1.1vh; */
+}
+
 .category {
   color: #92929D;
 }
@@ -26,14 +34,14 @@
   order: 0;
   flex-grow: 0;
   font-weight: 600;
-  font-size: 1vw;
+  /* font-size: 1vw; */
 }
 
 .featured-image {
-  height: 7vw;
+  height: 7vh;
 }
 
 .plus-button {
-  height: 1.5vw;
+  height: 1.5vh;
   margin-left: 3vw;
 }

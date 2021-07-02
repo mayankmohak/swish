@@ -5,8 +5,8 @@
   align-items: center;
   position: absolute;
   width: 100%;
-  height: 7vw;  /* @media me iska size 10vw krna hai*/
-  top: 25.6vw;
+  height: 9vh;
+  top: 52vh;
 }
 
 .search-row {
@@ -19,7 +19,7 @@
 
 .search-icon {
   padding: 1%;
-  height: .5vw;
+  height: .5vh;
 }
 
 .input {

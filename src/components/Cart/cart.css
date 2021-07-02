@@ -1,19 +1,16 @@
 .total-item {
   position: absolute;
   left: 4%;
-  top: 10%;
+  top: 5%;
   font-weight: bold;
 }
 
 .cart-products-cards {
-  position: absolute;
-  left: 2.15%;
-  top: 17.19%;
-  display: inline-flex;
+  margin-top: 4%;
+  padding-bottom: 15vw;
 }
 
 .cart-card {
-  display: flex;
   padding: 2vw;
   background: rgba(118, 178, 38, 0.15);
   border-radius: 20px;
@@ -27,29 +24,99 @@
 }
 
 .cart-card-name {
-  position: absolute;
-  margin-top: 11vh;
   font-weight: bold;
+  font-size: 2vh;
+  /* width: 10vw; */
 }
 
 .cart-card-detail {
-  position: absolute;
-  margin-top: 13.5vh;
+  font-size: 1.9vh;
+  /* width: 10rem; */
 }
 
 .cart-card-price {
   font-weight: bold;
+  /* font-size: 1rem; */
+  /* margin-top: 1rem; */
   position: absolute;
-  margin-top: 18vh;
+  bottom: 1.5rem;
+  left: 2rem;
+  /* height: 3.5vh; */
+}
+
+.cart-card-quantity {
+  background: white;
+  font-weight: 600;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  height: 3.5vh;
+}
+
+.cart-card-quantity button {
+  background: transparent;
+  border: none;
+  width: 2rem;
+}
+
+@media only screen and (max-width: 1330px) {
+  .cart-products-cards {
+    margin-top: 8%;
+  }
+  .cart-card-quantity {
+    height: 3.0vh;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .cart-card {
+    width: 50%;
+  }
+
+  .cart-products-cards {
+    margin-top: 10%;
+    padding-bottom: 170px;
+    margin-left: 20%;
+  }
+  .cart-card-detail {
+    /* width: 5rem; */
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .cart-card-name {
+    /* font-size: 1.7vh; */
+  }
+  
+  .cart-card-detail {
+    /* font-size: 1.6vh; */
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .cart-products-cards {
+    margin-top: 12vh;
+  }
+
+  
+}
+
+@media only screen and (max-width: 390px){
+  .cart-card-price {
+    margin-top: 0.1rem;
+    left: 1rem;
+    font-size: 1.2rem;
+  }
 }
 
 /* price css */
 .price-area {
-  position: absolute;
-  left: 2.15%;
-  right: 3.4%;
-  bottom: 4.88%;
+  position: fixed;
+  left: 2%;
+  right: 3%;
+  bottom: 0%;
   justify-content: center;
+  background: white;
 }
 
 .button {
@@ -62,7 +129,7 @@
   border: none;
   justify-content: center;
   font-weight: bold;
-
+  margin-bottom: 5px;
 }
 
 .price-sepcifiation {
