@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import "./featuredCard.css"
 import PlusButton from "../../assets/icons/plus.svg"
+import MyData from "../../mydata"
+
 
 class featuredCard extends Component {
   render() {
@@ -12,7 +14,15 @@ class featuredCard extends Component {
           <br />
           <label className="p-title">{ this.props.name }</label><br />
           <span className="category">{ this.props.category }</span><br /><br />
-          <span className="price">{ this.props.price } <img  className="plus-button" align="right" src={ PlusButton } alt="plus" /></span>
+          <span className="price">{ this.props.price } 
+            <MyData.Consumer>
+            {
+              (context) => (
+                <img onClick={()=>context.addData(this.props)} className="plus-button" align="right" src={ PlusButton } alt="plus" />
+              )
+            }
+            </MyData.Consumer>
+          </span>
         </div>
       </div>
     );

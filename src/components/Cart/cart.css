@@ -59,6 +59,15 @@
   width: 2rem;
 }
 
+.quantityItem {
+  width: 1.8rem;
+  border: none;
+}
+
+.quantityItem:focus {
+  outline: none;
+}
+
 @media only screen and (max-width: 1330px) {
   .cart-products-cards {
     margin-top: 8%;
