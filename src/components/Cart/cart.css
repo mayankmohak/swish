@@ -87,20 +87,20 @@
     padding-bottom: 170px;
     margin-left: 20%;
   }
-  .cart-card-detail {
-    /* width: 5rem; */
-  }
+  /* .cart-card-detail {
+    width: 5rem;
+  } */
 }
 
-@media only screen and (max-width: 620px) {
+/* @media only screen and (max-width: 620px) {
   .cart-card-name {
-    /* font-size: 1.7vh; */
+    font-size: 1.7vh;
   }
   
   .cart-card-detail {
-    /* font-size: 1.6vh; */
+    font-size: 1.6vh;
   }
-}
+} */
 
 @media only screen and (max-width: 550px) {
   .cart-products-cards {
