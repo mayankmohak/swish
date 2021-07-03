@@ -19,8 +19,8 @@ class App extends React.Component {
           "name": "Shoes",
           "category": "Red Nike shoes",
           "path": "https://raw.githubusercontent.com/mayankmohak/swish/197ffdd2d82fc717fa820091172e720bde0185e9/src/assets/images/products/shoes.svg",
-          "quantity": "2",
-          "price": "₹499.99"
+          "quantity": "1",
+          "price": "499.99"
         },
         {
           "id": "2",
@@ -28,7 +28,7 @@ class App extends React.Component {
           "category": "TheBookStore",
           "path": "https://raw.githubusercontent.com/mayankmohak/swish/197ffdd2d82fc717fa820091172e720bde0185e9/src/assets/images/products/book.svg",
           "quantity": "1",
-          "price": "₹199"
+          "price": "199"
         }
       ]
     }

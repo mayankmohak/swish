@@ -14,7 +14,7 @@ class featuredCard extends Component {
           <br />
           <label className="p-title">{ this.props.name }</label><br />
           <span className="category">{ this.props.category }</span><br /><br />
-          <span className="price">{ this.props.price } 
+          <span className="price">₹ { this.props.price } 
             <MyData.Consumer>
             {
               (context) => (
