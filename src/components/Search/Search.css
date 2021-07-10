@@ -14,7 +14,7 @@
   box-sizing: border-box;
   border-radius: 8px;
   display: flex;
-  width: 82%;
+  width: 65%;
 }
 
 .search-icon {
@@ -23,7 +23,7 @@
 }
 
 .input {
-  /* font-size: large; */
+  font-size: large;
   flex-direction: row;
   align-items: center;
   background: transparent;
