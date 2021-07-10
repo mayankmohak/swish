@@ -55,13 +55,9 @@ class Products extends Component {
       );
       return (
         <div className="products">
-          <div className="inline1"> { bestProductCard } </div>
-          <br />
-          <label class="title">Featured Products</label>
-          <br />
-          <br />
-          <br />
-          <div className="inline2"> { featuredProductCard } </div>
+          <div className="inline1"><div className="empty-div"></div> { bestProductCard } </div>
+          <span class="title">Featured Products</span>
+          <div className="inline2"><div className="empty-div"></div> { featuredProductCard } </div>
         </div>
       );
     }
