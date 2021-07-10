@@ -3,8 +3,8 @@
   flex-direction: row;
   padding: 1rem;
   padding-top: 3vw;
-  height: 37vh;
-  width: 60vh;
+  height: 30vh;
+  width: 20vw;
   
   background: #FFFFFF;
   border-radius: 10px;
@@ -16,7 +16,7 @@
 .product-name {
   width: 30vh;
   height: 6vh;
-  /* background-color: tomato; testing puppose */
+  background-color: tomato; /* testing puppose */
 
   font-family: Montserrat;
   font-style: normal;

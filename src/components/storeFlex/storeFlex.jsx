@@ -47,7 +47,7 @@ class StoreFlex extends Component {
       return (
         <React.Fragment>
           <div className="banner">
-            <img className="group1" src={BgPath} alt="flex background" />
+            <img className="group1" height="100px" width="" src={BgPath} alt="flex background" />
             <div className="container">
               <div className="row store-name">
                 {this.storeDetils.name}'s Fashion Store

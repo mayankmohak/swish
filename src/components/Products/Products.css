@@ -8,18 +8,18 @@
 
   position: absolute;
   height: auto;
-  left: 0%;
-  right: 0%;
-  top: 65vh;
+  left: 12%;
+  right: 12%;
+  top: 50vh;
   /* Colors / Grey Light 1 */
 
   background: #F6F6F6;
-  border-radius: 1rem;
+  border-radius: 3rem;
 }
 
 .inline1 {
   width: 85%;
-  height: 40vh; /* make scroller responsive */
+  height: 33vh; /* make scroller responsive */
   display: flex;
   overflow-x: auto;
 }
@@ -34,7 +34,7 @@
 .title {
   position: absolute;
   left: 8%;
-  margin-top: 45vh;
+  margin-top: 35vh;
 }
 
 @media (max-width: 400px) {
