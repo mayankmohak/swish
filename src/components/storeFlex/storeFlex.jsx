@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import "./storeFlex.css"
-// import BgPath from "../../assets/images/banner/path.svg"
-import BgBanner from "../../assets/images/banner/bgbanner.png"
+import BgPath from "../../assets/images/banner/path.svg"
+// import BgBanner from "../../assets/images/banner/bgbanner.png"
 import Girl from "../../assets/images/banner/girl.svg"
 
 class StoreFlex extends Component {
@@ -47,7 +47,7 @@ class StoreFlex extends Component {
       return (
         <React.Fragment>
           <div className="banner">
-            <img className="group1" src={BgBanner} alt="flex background" />
+            <img className="group1" src={BgPath} alt="flex background" />
             <div className="container">
               <div className="row store-name">
                 {this.storeDetils.name}'s Fashion Store

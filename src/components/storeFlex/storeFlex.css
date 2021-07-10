@@ -4,37 +4,37 @@
   border-radius: 1rem;
   height: 50vh;
   width: 100%;
+  margin: auto;
 }
 
 .store-name {
   position: absolute;
   width: 40%;
-  left: 10%;
+  left: 12%;
   top: 7vh;
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 6rem;
+  font-size: 6.5rem;
   color: #FFFFFF;
 }
 
 .store-details {
   position: absolute;
-  width: 35%;
-  left: 10%;
+  width: 45%;
+  left: 12%;
   top: 30vh;
   font-family: Montserrat;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 4rem;
   color: #FFFFFF;
   /* mix-blend-mode: normal; */
   opacity: 0.84;
 }
 
 .group1 {
+  height: 50vh; /* make height as in banner*/
   position: absolute;
-  width: 100%;
-  height: 50vh;
-  border-radius: 10px;
+  right: 0px;
 }
 
 .girl {
