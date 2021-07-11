@@ -3,7 +3,7 @@
   flex-direction: row;
   /* padding: 1rem; */
   /* padding-top: 3vw; */
-  height: 25vh;
+  height: 13.8vw;
   width: 24vw;
   
   background: #FFFFFF;
@@ -11,26 +11,24 @@
   
   flex: none;
   margin: 10px 0px;
-  margin-left: 4rem;
+  margin-left: 2.5rem;
 }
 
 .name-shop_now {
   width: 14vw;
-  height: 20vh;
+  height: 11vw;
   margin-left: 3rem;
 }
 
 .product-name {
   width: 10vw;
-  height: 18vh;
   /* background-color: tomato;  testing puppose */
 
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 3.5vh;
+  font-size: 1.9vw; /* Change this to slide shop now text down / up */
   color: #000000;
-  /* vertical-align: bottom; */
   margin-top: 2rem;
 }
 
@@ -38,24 +36,52 @@
   color: #FAC814;
   font-style: normal;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1vw;
+  margin-bottom: 0px;
+  padding-top: 2vw;
 }
 
-/* .product-image {
+/* 
+.product-image {
   padding: 1vw;
-} */
+} 
+*/
 
 .p-image {
-  height: 20vh;
+  height: 12vw;
   width: 10vw;
 }
 
 .arrow {
-  height: 2vh;
+  height: 1.2vw;
 }
+ 
+@media (max-width: 1600px) {
+  .white-card {
+    height: 20vw;
+    width: 34vw;
+  }
 
-@media (max-width: 1100px) {
+  .name-shop_now {
+    /* background-color: tomato; /* testing puppose */
+    height: 18vw;
+  }
+
   .product-name {
-    font-size: 5.7vh;
+    font-size: 2.6vw;
+  }
+
+  .shop-now {
+    font-size: 1.8vw;
+    /* padding-top: 2.5vw; */
+  }
+
+  .arrow {
+    font-size: 1.8vw;
+  }
+
+  .p-image {
+    height: 18vw;
+    width: 14vw;
   }
 }

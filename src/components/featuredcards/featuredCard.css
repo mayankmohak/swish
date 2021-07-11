@@ -2,32 +2,35 @@
   display: flex;
   flex-direction: row;
   padding: 1vw;
-  /* padding-top: ; */
-  height: 30vh;
+  height: 16vw;
   width: 12vw;
   
   background: #FFFFFF;
   border-radius: 10px;
   
   flex: none;
-  margin-left: 4rem;
+  margin-left: 2.5rem;
 
-  font-size: 2rem;
-  padding-left: 4rem;
+  background-color: #F3DEDB; /* This is for testing purpose */
+
+  font-size: 1.1vw;
+  font-weight: bold;
 }
 
-@media only screen and (max-width: 1000px){
-  .featured-card {
-    padding: 2vw;
-  }
+.featured-image {
+  height: 7vw;
+  width: 6.5vw;
+  padding-left: 1.5vw;
 }
 
-/* .p-title{
-  font-size: 1.1vh;
-} */
+.p-title{
+  padding-left: 1vw;
+}
 
 .category {
   color: #92929D;
+  font-weight: normal;
+  padding-left: 1vw;
 }
 
 .price {
@@ -40,18 +43,35 @@
   font-weight: 600;
   
   bottom: 0%;
-  /* font-size: 1vw; */
-}
-
-.featured-image {
-  height: 13vh;
+  padding-left: 1vw;
+  width: 10vw;
 }
 
 .plus-button {
-  height: 3rem;
-  margin-left: 3vw;
+  height: 1.5vw;
+  margin-right: 0vw;
+  margin-left: auto;margin-right: 0;
+  float: right;
 }
 
 .plus-button:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 1600px){
+  .featured-card {
+    height: 20vw;
+    width: 16vw;
+
+    font-size: 1.3vw;
+  }
+  
+  .featured-image {
+    height: 10vw;
+    width: 8vw;
+  }
+
+  .price {
+    width: 12vw;
+  }
 }

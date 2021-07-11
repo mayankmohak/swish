@@ -12,9 +12,9 @@ class featuredCard extends Component {
           {/* <span className="shop-now yellow"><br />Shop Now <img className="arrow" src={} alt="arrow" /> </span> */}
           <img className="featured-image" src={this.props.path} alt="FPImage" />
           <br />
-          <label className="p-title">{ this.props.name }</label><br />
-          <span className="category">{ this.props.category }</span><br /><br />
-          <span className="price">₹ { this.props.price } 
+          <p className="p-title">{ this.props.name }</p>
+          <p className="category">{ this.props.category }</p>
+          <p className="price">₹ { this.props.price } 
             <MyData.Consumer>
             {
               (context) => (
@@ -22,7 +22,7 @@ class featuredCard extends Component {
               )
             }
             </MyData.Consumer>
-          </span>
+          </p>
         </div>
       </div>
     );

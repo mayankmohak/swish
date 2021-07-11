@@ -11,12 +11,12 @@ class bestCard extends Component {
       <React.Fragment>
         <div id={this.props.id} className="white-card">
           <div className="name-shop_now">
-            <div className="product-name">
+            <p className="product-name">
               { this.props.name }
-            </div>
-            <span className="shop-now yellow">Shop Now <img className="arrow" src={ArrowIcon} alt="arrow" /> </span>
+            </p>
+            <p className="shop-now">Shop Now <img className="arrow" src={ArrowIcon} alt="arrow" /> </p>
           </div>
-          <div className="product-image"><img className="p-image" src={ img }  alt="productImage" /></div>
+          <p className="product-image"><img className="p-image" src={ img }  alt="productImage" /></p>
         </div>
       </React.Fragment>
     );

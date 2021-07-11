@@ -2,7 +2,7 @@
   /* position: absolute; */
   background: #2ECC71;
   border-radius: 1rem;
-  height: 40vh;
+  height: 45vh;
   width: 100%;
   margin: auto;
 }
@@ -14,7 +14,7 @@
   top: 7vh;
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 6.5rem;
+  font-size: 3.5vw;
   color: #FFFFFF;
 }
 
@@ -25,17 +25,17 @@
   top: 25vh;
   font-family: Montserrat;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 2vw;
   color: #FFFFFF;
   /* mix-blend-mode: normal; */
   opacity: 0.84;
 }
 
 .group1 {
-  height: 40vh; /* make height as in banner*/
+  height: 45vh; /* make height as in banner*/
   position: absolute;
   right: 0px;
-  /* width: 0px; */
+  /* width: 100%; */
 }
 
 .girl {

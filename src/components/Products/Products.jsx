@@ -56,7 +56,7 @@ class Products extends Component {
       return (
         <div className="products">
           <div className="inline1"><div className="empty-div"></div> { bestProductCard } </div>
-          <span class="title">Featured Products</span>
+          <p class="title">Featured Products</p>
           <div className="inline2"><div className="empty-div"></div> { featuredProductCard } </div>
         </div>
       );

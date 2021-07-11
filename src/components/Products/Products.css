@@ -10,7 +10,7 @@
   height: auto;
   left: 12%;
   right: 12%;
-  top: 50vh;
+  top: 57vh;
   /* Colors / Grey Light 1 */
 
   background: #F6F6F6;
@@ -20,35 +20,52 @@
 /* best products */
 .inline1 {
   width: 100%;
-  height: 28vh; /* make scroller responsive */
+  height: 16vw; /* make scroller responsive */
   display: flex;
   overflow-x: scroll;
 }
 
-::-webkit-scrollbar{
+.inline1::-webkit-scrollbar,
+.inline2::-webkit-scrollbar {
   display: none;
 }
 
 /* featured products */
 .inline2 {
   width: 100%;
-  height: 35vh; /* make scroller responsive */
+  height: 17vw; /* make scroller responsive */
   display: flex;
   overflow-x: auto;
   margin-top: 3rem;
 }
 
 .empty-div {
-  margin-left: 4rem;
+  margin-left: 8rem;
 }
 
 .title {
   /* position: absolute; */
   /* left: 8%; */
   /* margin-top: 35vh; */
-  font-size: 3rem;
+  font-size: 1.5vw;
   margin-left: 11rem;
   font-weight: bold;
+}
+
+
+@media (max-width: 1600px) {
+  .products {
+    left: 0%;
+    right: 0%;
+  }
+
+  .inline1 {
+    height: 24vw;
+  }
+
+  .inline2 {
+    height: 20vw;
+  }
 }
 
 @media (max-width: 400px) {
