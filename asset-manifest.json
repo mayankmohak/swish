@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/swish/static/css/main.12049f4f.chunk.css",
+    "main.css": "/swish/static/css/main.45ccaa14.chunk.css",
     "main.js": "/swish/static/js/main.a9abcc19.chunk.js",
     "main.js.map": "/swish/static/js/main.a9abcc19.chunk.js.map",
     "runtime-main.js": "/swish/static/js/runtime-main.82f4757f.js",
@@ -8,7 +8,7 @@
     "static/js/2.8559da14.chunk.js": "/swish/static/js/2.8559da14.chunk.js",
     "static/js/2.8559da14.chunk.js.map": "/swish/static/js/2.8559da14.chunk.js.map",
     "index.html": "/swish/index.html",
-    "static/css/main.12049f4f.chunk.css.map": "/swish/static/css/main.12049f4f.chunk.css.map",
+    "static/css/main.45ccaa14.chunk.css.map": "/swish/static/css/main.45ccaa14.chunk.css.map",
     "static/js/2.8559da14.chunk.js.LICENSE.txt": "/swish/static/js/2.8559da14.chunk.js.LICENSE.txt",
     "static/media/arrow.b7486acc.svg": "/swish/static/media/arrow.b7486acc.svg",
     "static/media/girl.e13bb32e.svg": "/swish/static/media/girl.e13bb32e.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.82f4757f.js",
     "static/js/2.8559da14.chunk.js",
-    "static/css/main.12049f4f.chunk.css",
+    "static/css/main.45ccaa14.chunk.css",
     "static/js/main.a9abcc19.chunk.js"
   ]
 }
