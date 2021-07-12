@@ -5,6 +5,11 @@
   height: 45vh;
   width: 100%;
   margin: auto;
+
+  background-image: url("../../assets/images/banner/pattern-x-laptop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .store-name {
@@ -32,10 +37,14 @@
 }
 
 .group1 {
-  height: 45vh; /* make height as in banner*/
+  height: auto; /* make height as in banner*/
+  width: 100vw;
   position: absolute;
+  /* top: 0; */
   right: 0px;
   /* width: 100%; */
+  /* background-image: url("../../assets/images/banner/path-mobile.svg"); */
+  /* z-index: 100; */
 }
 
 .girl {
@@ -43,20 +52,72 @@
   right: 0px;
   top: 6.74%;
   bottom: 66.59%;
-  height: 33vh;
+  height: 38vh;
 }
-
-@media only screen and (max-width: 768px ) {
-  .store-details {
-    padding-top: 3rem;
+@media only screen and (max-width: 1600px ) {
+  .banner {
+    background-image: url("../../assets/images/banner/pattern-laptop.svg");
   }
-}
-
-@media only screen and (max-width: 550px ) {
   .store-name {
-    font-size: 4rem;
+    font-size: 3.7vw;
   }
   .store-details {
-    font-size: 1.5rem;
+    font-size: 2.2vw;
+  }
+}
+@media only screen and (max-width: 1050px ) {
+  .banner {
+    background-image: url("../../assets/images/banner/pattern-tablet.svg");
+  }
+  .store-name {
+    font-size: 5vw;
+  }
+  .store-details {
+    font-size: 2.5vw;
+  }
+}
+
+/* Wide Mobile view has to change many things */
+@media only screen and (max-width: 700px ) {
+  .banner {
+    background-image: url("../../assets/images/banner/pattern-mobile.svg");
+    height: 40vh;
+  }
+  .group1 {
+    /* height: 40vh; */
+  }
+  .store-name {
+    width: 60%;
+    font-size: 6vw;
+    top: 9vh;
+  }
+  .store-details {
+    font-size: 4vw;
+  }
+  .girl {
+    height: 33vh;
+  }
+}
+
+/* Mobile view has to change many things */
+@media only screen and (max-width: 500px ) {
+  .banner {
+    height: 35vh;
+  }
+
+  .group1 {
+    /* height: 35vh; */
+  }
+  
+  .girl {
+    height: 28vh;
+  }
+
+  .store-name {
+    top: 11vh;
+  }
+
+  .store-details {
+    width: 55%;
   }
 }

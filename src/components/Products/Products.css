@@ -36,11 +36,11 @@
   height: 17vw; /* make scroller responsive */
   display: flex;
   overflow-x: auto;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .empty-div {
-  margin-left: 8rem;
+  margin-left: 3vw;
 }
 
 .title {
@@ -48,7 +48,7 @@
   /* left: 8%; */
   /* margin-top: 35vh; */
   font-size: 1.5vw;
-  margin-left: 11rem;
+  margin-left: 5vw;
   font-weight: bold;
 }
 
@@ -64,12 +64,57 @@
   }
 
   .inline2 {
-    height: 20vw;
+    height: 22vw;
   }
 }
 
-@media (max-width: 400px) {
+@media only screen and (max-width: 1000px ) {
+  .title {
+    font-size: 2vw;
+  }
+  .empty-div {
+    margin-left: 2vw;
+  }
+}
+
+/* Mobile view has to change many things 700 - 550 */
+@media only screen and (max-width: 700px ) {
   .products {
-    padding-left: 0rem;
+    top: 52vh;
+  }
+
+  .inline1 {
+    height: 30vw;
+  }
+
+  .title {
+    margin-left: 6vw;
+    font-size: 3vw;
+  }
+
+  .empty-div {
+    margin-left: .5vw;
+  }
+}
+
+/* Mobile view has to change many things < 500 */
+@media only screen and (max-width: 500px) {
+  .products {
+    top: 45vh;
+  }
+
+  .inline1 {
+    height: 48vw;
+  }
+  .empty-div {
+    margin-left: 0vw;
+  }
+
+  .title {
+    font-size: 4vw;
+  }
+
+  .inline2 {
+    height: 45vw;
   }
 }

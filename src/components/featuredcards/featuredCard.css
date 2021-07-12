@@ -50,7 +50,8 @@
 .plus-button {
   height: 1.5vw;
   margin-right: 0vw;
-  margin-left: auto;margin-right: 0;
+  margin-left: auto;
+  margin-right: 0;
   float: right;
 }
 
@@ -61,7 +62,7 @@
 @media only screen and (max-width: 1600px){
   .featured-card {
     height: 20vw;
-    width: 16vw;
+    width: 17vw;
 
     font-size: 1.3vw;
   }
@@ -73,5 +74,44 @@
 
   .price {
     width: 12vw;
+  }
+}
+
+/* Wide Mobile view has to change many things 700 - 550 */
+@media (max-width: 700px) {
+  .featured-card {
+    height: 22vw;
+    font-size: 1.5vw;
+  }
+}
+
+/* Wide Mobile view has to change many things */
+@media only screen and (max-width: 500px) {
+  .featured-card {
+    height: 45vw;
+    width: 38vw;
+    font-size: 3vw;
+    margin-left: 1.5rem;
+  }
+
+  .featured-image {
+    height: 22vw;
+    width: 20vw;
+  }
+  .price {
+    width: 30vw;
+    padding-left: 3vw;
+  }
+
+  .p-title {
+    padding-left: 3vw;
+  }
+
+  .category {
+    padding-left: 3vw;
+  }
+
+  .plus-button {
+    height: 5vw;
   }
 }

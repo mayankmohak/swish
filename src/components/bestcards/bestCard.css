@@ -21,7 +21,7 @@
 }
 
 .product-name {
-  width: 10vw;
+  width: auto;
   /* background-color: tomato;  testing puppose */
 
   font-family: Montserrat;
@@ -83,5 +83,46 @@
   .p-image {
     height: 18vw;
     width: 14vw;
+  }
+}
+
+/* Wide Mobile view has to change many things 700 - 550 */
+@media (max-width: 700px) {
+  .white-card {
+    height: 25vw;
+  }
+}
+
+/* Mobile view has to change many things 700 - 550 */
+@media only screen and (max-width: 500px) {
+  .white-card {
+    height: 40vw;
+    width: 65vw;
+    margin-left: 1.5rem;
+  }
+
+  .name-shop_now {
+    /* background-color: tomato; /* testing puppose */
+    height: 33vw;
+    width: 30vw;
+    margin-left: 1.5rem;
+  }
+
+  .product-name {
+    font-size: 4.5vw;
+  }
+
+  .shop-now {
+    font-size: 3vw;
+    /* padding-top: 2.5vw; */
+  }
+
+  .arrow {
+    height: 4vw;
+  }
+
+  .p-image {
+    height: 33vw;
+    width: 30vw;
   }
 }
